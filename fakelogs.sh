@@ -5,7 +5,7 @@ tail -f /tmp/logdata | nc -lk 7777 &
 TAIL_NC_PID=$!
 cat log1.log >> /tmp/logdata
 sleep 5
-cat og2.log >> /tmp/logdata
+cat log2.log >> /tmp/logdata
 sleep 1
 cat log1.log >> /tmp/logdata
 sleep 2
